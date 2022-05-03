@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mens</title>
+</head>
+<style>
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+
+    .card {
+        width: 300px;
+        margin: auto;
+        margin-top: 50px;
+        margin-bottom: 500px;
+        border: 1px solid rgb(224, 224, 224);
+    }
+
+    .card-img {
+        width: 100%;
+        height: 40%;
+    }
+
+    .footer {
+        border-top: 1px solid black;
+    }
+
+    h3,
+    p {
+        margin: 5px 0px;
+    }
+
+    .box-img {
+        width: 100%;
+    }
+    .container{
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(auto,auto);
+        /* border: 1px solid black; */
+    }
+    .card{
+        margin-bottom: 30px;
+        height: 400px;
+    }
+   .box-img>p{
+       background-color: rgb(185, 185, 214);
+       width: 65px;
+       /* border-radius: 10px; */
+       margin-top: -35px;
+       position: absolute;
+   }
+   #offer{
+    background-color: rgb(185, 185, 214);
+       width: 45px;
+       /* border-radius: 10px; */
+       margin-top: -35px;
+       margin-left: 90px;
+       position: absolute;
+   }
+   #rate{
+       display: flex;
+       width: 50%;
+       margin-left: 10px;
+       justify-content: space-between;
+   }
+   .card-heading{
+       margin-left: 10px;
+   }
+   .card-text{
+       margin-left: 10px;
+   }
+   #disrate{
+    text-decoration: line-through;
+    color: gray;
+   }
+   #rate>h4+h4+h4{
+       color: green;
+   }
+</style>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="box-img">
+                <img src="https://rukminim2.flixcart.com/image/495/594/ku4ezrk0/shirt/5/w/d/l-frml-st2-vebnor-original-imag7bdtc5zzx25v.jpeg?q=50"
+                    alt="" class="card-img">
+            </div>
+            <h3 class="card-heading">Kids Garments</h3>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, nulla. </p>
+            <!-- <h4>₹1800  ₹3000  40% off</h4> -->
+            <div>
+                <div id="rate">
+                    <h4>₹1800</h4>
+                    <h4 id="disrate">₹3000</h4>
+                    <h4>40% off</h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="box-img">
+                <img src="https://rukminim2.flixcart.com/image/495/594/kst9gnk0/shirt/r/s/t/xxl-frml-st2-vebnor-original-imag6at4hgjrvyun.jpeg?q=50"
+                    alt="" class="card-img">
+            </div>
+            <h3 class="card-heading">Kids Garments</h3>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, nulla. </p>
+            <div>
+                <div id="rate">
+                    <h4>₹1800</h4>
+                    <h4 id="disrate">₹3000</h4>
+                    <h4 id="per">40% off</h4>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="card">
+            <div class="box-img">
+                <img src="https://rukminim2.flixcart.com/image/495/594/kst9gnk0/shirt/r/s/t/xxl-frml-st2-vebnor-original-imag6at4hgjrvyun.jpeg?q=50"
+                    alt="" class="card-img">
+            </div>
+            <h3 class="card-heading">Kids Garments</h3>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, nulla. </p>
+            <div>
+                <div id="rate">
+                    <h4>₹1800</h4>
+                    <h4 id="disrate">₹3000</h4>
+                    <h4 id="per">40% off</h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="box-img">
+                <img src="https://rukminim2.flixcart.com/image/495/594/ku4ezrk0/shirt/5/w/d/l-frml-st2-vebnor-original-imag7bdtc5zzx25v.jpeg?q=50"
+                    alt="" class="card-img">
+            </div>
+            <h3 class="card-heading">Kids Garments</h3>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, nulla. </p>
+            <!-- <h4>₹1800  ₹3000  40% off</h4> -->
+            <div>
+                <div id="rate">
+                    <h4>₹1800</h4>
+                    <h4 id="disrate">₹3000</h4>
+                    <h4>40% off</h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="box-img">
+                <img src="https://rukminim2.flixcart.com/image/495/594/l26hdow0/shirt/k/n/3/m-sd-design-sdshirts-original-imagdkzw6myeafsb.jpeg?q=50"
+                    alt="" class="card-img">
+            </div>
+            <h3 class="card-heading">Kids Garments</h3>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, nulla. </p>
+            <div>
+                <div id="rate">
+                    <h4>₹1800</h4>
+                    <h4 id="disrate">₹3000</h4>
+                    <h4 id="per">40% off</h4>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="card">
+            <div class="box-img">
+                <img src="https://rukminim2.flixcart.com/image/495/594/kst9gnk0/shirt/r/s/t/xxl-frml-st2-vebnor-original-imag6at4hgjrvyun.jpeg?q=50"
+                    alt="" class="card-img">
+            </div>
+            <h3 class="card-heading">Kids Garments</h3>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, nulla. </p>
+            <div>
+                <div id="rate">
+                    <h4>₹1800</h4>
+                    <h4 id="disrate">₹3000</h4>
+                    <h4 id="per">40% off</h4>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
